@@ -1,0 +1,2 @@
+The file will read till the time end of the file is not reached.
+To perform reading and writing opeartion in a text file.
