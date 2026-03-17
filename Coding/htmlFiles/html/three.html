@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+</head>
+<body>
+    <div style="background-color: cornflowerblue;">
+        <h1>This is my page</h1>
+    </div>
+    <div style="background-color: beige;">
+        <h2>How it looks?</h2>
+    </div>
+    <div style="background-color: cadetblue; text-align: center;">
+        <p>It looks nice!!!!</p>
+        <hr>
+        <p>
+            div tag is division tag
+        </p>
+    </div>
+
+    <div>
+        <p>
+            <span style="color: rgb(0, 64, 255);">
+                <strong style="color: chocolate;">Inline elements:</strong> Without disturbing how content is displayed inline elements help you highlight and modify different parts of your text. Like how an inline element appears next to its surrounding words and only takes as much space as needed, unlike block elements that have a new line. A reason to do this is to add styles, link or interactivity inside paragraphs or element type that use blocks.
+            </span>
+        </p>
+        <p>
+            They are applied along with the block level element to make some parts of the web page stand out. For instance elements such as <strong>&lta>, &ltstrong>, &ltem> and &ltspan> </strong>can we applied inside a paragraph to generate links, emphasize parts or add styling without changing the rest of the text structure. Because you have so much control, you can make your HTML documents more informative.
+        </p>
+        <a href="https://www.w3schools.com/html/default.asp">W3Schools</a>
+        <h3>HTML References</h3>
+        <p>
+            At <a href="https://www.w3schools.com/html/default.asp"><em>W3Schools</em></a> you will find complete references about HTML elements, attributes, events, color names, entities, character-sets, URL encoding, language codes, HTTP messages, browser support, and more:
+        </p>
+        <p>
+            a<sup>2</sup> + 2ab + b<sup>2</sup>
+        </p>
+        <p>
+            R = A<sub>1</sub> + A<sub>2</sub>
+        </p>
+        <p>
+            <abbr title="HyperText Markup Language">HTML</abbr> is used for web development.
+        </p>
+    </div>
+    <h3>Python Code</h3>
+    <pre>
+# Write a program to input three angles of a 
+# triangle and check whether its construction is 
+# possible or not. If possible, then check and 
+# display whether it is an acute angle triangle, 
+# right angled or an obtuse angle triangle. 
+# Otherwise, display a "triangle is not possible".
+
+a = float(input('Enter first angle: '))
+b = float(input('Enter second angle: '))
+c = float(input('Enter third angle: '))
+
+sum = a + b + c
+if a == 0 or b == 0 or c == 0 or sum != 180:
+    print('Triangle is not possible')
+else:
+    print('Triangle is possible')
+    if a == 90 or b == 90 or c == 90 :
+        print('Right Angled Triangle')
+    elif a > 90 or b > 90 or c > 90 :
+        print('Obtuse Angled Triangle')
+    else:
+        print('Acute Angled Triangle')
+        
+    </pre>
+</body>
+</html>
