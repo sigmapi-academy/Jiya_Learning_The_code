@@ -1,0 +1,39 @@
+caption{
+    caption-side: bottom;
+    font-style: italic;
+}
+
+thead{
+    color: green;
+    display: table-header-group;
+    vertical-align: middle;
+    background-color: aquamarine;
+}
+tbody{
+    color: blue;
+}
+tfoot{
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+table, th, td{
+    border: 1px solid darkgreen;
+    /* border-collapse: collapse; */
+    border-radius: 10px;
+    border-spacing: 10px;
+}
+
+td, th{
+    /* padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 15px; */
+
+    padding: 20px 15px 10px 15px; 
+    /* same job as above */
+}
+
+tr:hover{
+    background-color: aquamarine;
+}
