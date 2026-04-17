@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
-    <link rel="stylesheet" href="../css/mystyleone.css">
+    <!-- <link rel="stylesheet" href="../css/mystyleone.css"> -->
+    <style>
+        caption {
+            caption-side: bottom;
+            font-style: italic;
+        }
+
+        thead {
+            color: green;
+            display: table-header-group;
+            vertical-align: middle;
+            background-color: aquamarine;
+        }
+
+        tbody {
+            color: blue;
+        }
+
+        tfoot {
+            color: blueviolet;
+            background-color: burlywood;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid darkgreen;
+            /* border-collapse: collapse; */
+            border-radius: 10px;
+            border-spacing: 10px;
+        }
+
+        td,
+        th {
+            /* padding-bottom: 20px;
+                padding-top: 15px;
+                padding-left: 10px;
+                padding-right: 15px; */
+
+            padding: 20px 15px 10px 15px;
+            /* same job as above */
+        }
+
+        tr:hover {
+            background-color: aquamarine;
+        }
+    </style>
 </head>
+
 <body>
     <table>
         <tr>
@@ -41,10 +89,10 @@
     </table>
 
     <p>
-        <h2>Another table</h2>
+    <h2>Another table</h2>
     </p>
     <table>
-        <caption >Monthly savings</caption>
+        <caption>Monthly savings</caption>
         <tr>
             <th>Month</th>
             <th>Savings</th>
@@ -72,7 +120,7 @@
     </table>
 
     <p>
-        <h2>Books Table</h2>
+    <h2>Books Table</h2>
     </p>
     <table>
         <colgroup>
@@ -112,7 +160,7 @@
     </table>
 
     <p>
-        <h3>An HTML table with thead, tbody and tfoot element</h3>
+    <h3>An HTML table with thead, tbody and tfoot element</h3>
     </p>
     <table>
         <thead>
@@ -143,4 +191,5 @@
         </tfoot>
     </table>
 </body>
+
 </html>
